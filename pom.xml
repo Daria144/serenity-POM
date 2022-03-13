@@ -69,6 +69,7 @@
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
+                    <!-- WHAT TESTS WILL BE RUN-->
                     <includes>
                         <include>**/*Test.java</include>
                         <include>**/Test*.java</include>
